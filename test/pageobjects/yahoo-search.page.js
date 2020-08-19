@@ -5,8 +5,8 @@ class YahooPage extends Page  {
   /**
   * define elements
   */
-  get searchInput()   { return $('#yschsp'); }
-  get searchButton()  { return $('.mag-glass'); }
+  get searchInput()   { return $('#yschsp'); }    // an element whose id attribute is yschsp
+  get searchButton()  { return $('.mag-glass'); } // an element with the mag-glass class
   get resultsList()   { return $('#results'); }
 
   /**

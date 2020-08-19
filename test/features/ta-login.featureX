@@ -1,4 +1,5 @@
 Feature: Performing a login
+# This site should not be used for testing purposes - there's a notice on the page that requests no bots use it
 
     As a user on the phptravels login page
     I want to login
